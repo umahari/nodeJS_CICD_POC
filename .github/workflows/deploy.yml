@@ -131,7 +131,7 @@ jobs:
         with:
           credentials: ${{ secrets.GOOGLE_CREDENTIALS }}
           path: /tmp/output
-          destination: testexamaple-1
+          destination: testexamaple-1/polaris-output.txt
         
    
   Blackduck-SCA:
